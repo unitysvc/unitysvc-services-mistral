@@ -1,0 +1,27 @@
+{
+  "currency": "USD",
+  "description": "Mistral Ocr 2505 language model",
+  "details": {
+    "litellm_provider": "mistral",
+    "mode": "ocr",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Mistral Ocr 2505",
+  "name": "mistral-ocr-2505",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:52.702Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "api_key": "${ secrets.MISTRAL_API_KEY }",
+      "base_url": "https://api.mistral.ai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}

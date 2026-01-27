@@ -1,0 +1,30 @@
+{
+  "currency": "USD",
+  "description": "Mistral Embed language model",
+  "details": {
+    "contextLength": 8192,
+    "litellm_provider": "mistral",
+    "max_input_tokens": 8192,
+    "max_tokens": 8192,
+    "mode": "embedding",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Mistral Embed",
+  "name": "mistral-embed",
+  "schema": "offering_v1",
+  "service_type": "embedding",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:52.694Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "api_key": "${ secrets.MISTRAL_API_KEY }",
+      "base_url": "https://api.mistral.ai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}

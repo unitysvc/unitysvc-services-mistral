@@ -1,0 +1,4 @@
+curl -X POST "https://api.mistral.ai/v1/embeddings" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $API_KEY" \
+     -d '{"model": "{{offering.name}}", "input": ["Embed this sentence.", "As well as this one."]}'

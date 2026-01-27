@@ -1,0 +1,17 @@
+const apiKey = process.env.API_KEY;
+
+const form = new FormData();
+form.append("file_url", "https://docs.mistral.ai/audio/obama.mp3");
+form.append("model", "{{offering.name}}");
+
+const response = await fetch("https://api.mistral.ai/v1/audio/transcriptions", {
+  method: "POST",
+  headers: {
+    "x-api-key": apiKey,
+    // ❗ DON'T set Content-Type — fetch does this automatically for multipart
+  },
+  body: form
+});
+
+const data = await response.json();
+console.log(data);

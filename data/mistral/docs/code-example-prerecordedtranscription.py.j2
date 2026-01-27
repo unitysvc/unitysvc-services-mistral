@@ -1,0 +1,20 @@
+import os
+import requests
+
+API_KEY = os.getenv("API_KEY")
+
+url = "https://api.mistral.ai/v1/audio/transcriptions"
+
+# Using multipart/form-data requires 'files' or 'data'
+files = {
+    "file_url": (None, "https://docs.mistral.ai/audio/obama.mp3"),
+    "model": (None, "{{offering.name}}")
+}
+
+headers = {
+    "x-api-key": API_KEY
+}
+
+response = requests.post(url, files=files, headers=headers)
+
+print(response.text)

@@ -1,0 +1,25 @@
+{
+  "currency": "USD",
+  "description": "Labs Mistral Small Creative language model",
+  "details": {
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Labs Mistral Small Creative",
+  "name": "labs-mistral-small-creative",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "byop"
+  ],
+  "time_created": "2026-01-26T02:53:52.652Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "api_key": "${ secrets.MISTRAL_API_KEY }",
+      "base_url": "https://api.mistral.ai/v1/chat/completions",
+      "rate_limits": []
+    }
+  }
+}
