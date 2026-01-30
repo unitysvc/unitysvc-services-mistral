@@ -2,7 +2,7 @@
   "currency": "USD",
   "description": "Mistral Ocr 2505 language model",
   "details": {
-    "litellm_provider": "mistral",
+    "litellm_provider": "vertex_ai",
     "mode": "ocr",
     "object": "model",
     "owned_by": "mistralai"

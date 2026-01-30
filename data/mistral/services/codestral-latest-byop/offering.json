@@ -3,7 +3,7 @@
   "description": "Codestral Latest language model",
   "details": {
     "contextLength": 32000,
-    "litellm_provider": "mistral",
+    "litellm_provider": "codestral",
     "max_input_tokens": 32000,
     "max_output_tokens": 8191,
     "max_tokens": 8191,
@@ -15,8 +15,8 @@
   "name": "codestral-latest",
   "payout_price": {
     "description": "Pricing Per 1M Tokens Input/Output",
-    "input": "1",
-    "output": "3",
+    "input": "0",
+    "output": "0",
     "reference": null,
     "type": "one_million_tokens"
   },
