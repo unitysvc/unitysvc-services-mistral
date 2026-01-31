@@ -8,7 +8,7 @@
   "display_name": "Mistral Large Pixtral 2411",
   "name": "mistral-large-pixtral-2411",
   "schema": "offering_v1",
-  "service_type": "vision_language_model",
+  "service_type": "llm",
   "status": "ready",
   "tags": [
     "byop"
