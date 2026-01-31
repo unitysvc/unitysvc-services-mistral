@@ -3,10 +3,10 @@
   "description": "Pixtral 12B language model",
   "details": {
     "contextLength": 128000,
-    "litellm_provider": "mistral",
+    "litellm_provider": "vercel_ai_gateway",
     "max_input_tokens": 128000,
-    "max_output_tokens": 128000,
-    "max_tokens": 128000,
+    "max_output_tokens": 4000,
+    "max_tokens": 4000,
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai"
@@ -21,7 +21,7 @@
     "type": "one_million_tokens"
   },
   "schema": "offering_v1",
-  "service_type": "vision_language_model",
+  "service_type": "llm",
   "status": "ready",
   "tags": [
     "byop"
