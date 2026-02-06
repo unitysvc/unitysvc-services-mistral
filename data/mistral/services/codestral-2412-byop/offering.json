@@ -9,7 +9,7 @@
   "name": "codestral-2412",
   "schema": "offering_v1",
   "service_type": "llm",
-  "status": "ready",
+  "status": "deprecated",
   "tags": [
     "byop"
   ],

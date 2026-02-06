@@ -9,7 +9,7 @@
   "name": "pixtral-12b-latest",
   "schema": "offering_v1",
   "service_type": "vision_language_model",
-  "status": "ready",
+  "status": "deprecated",
   "tags": [
     "byop"
   ],

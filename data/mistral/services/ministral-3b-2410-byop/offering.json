@@ -9,7 +9,7 @@
   "name": "ministral-3b-2410",
   "schema": "offering_v1",
   "service_type": "llm",
-  "status": "ready",
+  "status": "deprecated",
   "tags": [
     "byop"
   ],
