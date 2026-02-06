@@ -1,19 +1,19 @@
 {
   "currency": "USD",
-  "description": "Pixtral 12B Latest language model",
+  "description": "Mistral Vibe Cli With Tools language model",
   "details": {
     "object": "model",
     "owned_by": "mistralai"
   },
-  "display_name": "Pixtral 12B Latest",
-  "name": "pixtral-12b-latest",
+  "display_name": "Mistral Vibe Cli With Tools",
+  "name": "mistral-vibe-cli-with-tools",
   "schema": "offering_v1",
-  "service_type": "vision_language_model",
-  "status": "deprecated",
+  "service_type": "llm",
+  "status": "ready",
   "tags": [
     "byop"
   ],
-  "time_created": "2026-01-26T02:53:52.682Z",
+  "time_created": "2026-02-06T03:02:45.970771Z",
   "upstream_access_interfaces": {
     "Mistral AI API": {
       "access_method": "http",

@@ -1,19 +1,19 @@
 {
   "currency": "USD",
-  "description": "Pixtral 12B Latest language model",
+  "description": "Voxtral Mini 2602 language model",
   "details": {
     "object": "model",
     "owned_by": "mistralai"
   },
-  "display_name": "Pixtral 12B Latest",
-  "name": "pixtral-12b-latest",
+  "display_name": "Voxtral Mini 2602",
+  "name": "voxtral-mini-2602",
   "schema": "offering_v1",
-  "service_type": "vision_language_model",
-  "status": "deprecated",
+  "service_type": "llm",
+  "status": "ready",
   "tags": [
     "byop"
   ],
-  "time_created": "2026-01-26T02:53:52.682Z",
+  "time_created": "2026-02-06T03:02:46.009615Z",
   "upstream_access_interfaces": {
     "Mistral AI API": {
       "access_method": "http",
