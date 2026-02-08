@@ -1,7 +1,7 @@
 import os
 import requests
 
-API_KEY = os.getenv("API_KEY")
+UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
 
 url = "https://api.mistral.ai/v1/audio/transcriptions"
 
@@ -12,7 +12,7 @@ files = {
 }
 
 headers = {
-    "x-api-key": API_KEY
+    "x-api-key": UNITYSVC_API_KEY
 }
 
 response = requests.post(url, files=files, headers=headers)
