@@ -20,7 +20,7 @@ from unitysvc_services import ModelDataFetcher, ModelDataLookup, populate_from_i
 # Provider Configuration
 PROVIDER_NAME = "mistral"
 PROVIDER_DISPLAY_NAME = "Mistral AI"
-API_BASE_URL = "https://api.mistral.ai/v1/chat/completions"
+API_BASE_URL = "https://api.mistral.ai/v1"
 ENV_API_KEY_NAME = "MISTRAL_API_KEY"
 
 SCRIPT_DIR = Path(__file__).parent
