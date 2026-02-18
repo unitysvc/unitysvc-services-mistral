@@ -2,16 +2,29 @@
   "currency": "USD",
   "description": "Devstral Latest language model",
   "details": {
+    "contextLength": 256000,
+    "litellm_provider": "mistral",
+    "max_input_tokens": 256000,
+    "max_output_tokens": 256000,
+    "max_tokens": 256000,
+    "mode": "chat",
     "object": "model",
     "owned_by": "mistralai"
   },
   "display_name": "Devstral Latest",
   "name": "devstral-latest",
+  "payout_price": {
+    "description": "Pricing Per 1M Tokens Input/Output",
+    "input": "0.39999999999999997",
+    "output": "2",
+    "reference": null,
+    "type": "one_million_tokens"
+  },
   "schema": "offering_v1",
   "service_type": "llm",
   "status": "ready",
   "tags": [
-    "byop"
+    "byok"
   ],
   "time_created": "2026-01-26T02:53:52.647Z",
   "upstream_access_interfaces": {

@@ -16,7 +16,7 @@
   "service_type": "embedding",
   "status": "ready",
   "tags": [
-    "byop"
+    "byok"
   ],
   "time_created": "2026-01-26T02:53:52.696Z",
   "upstream_access_interfaces": {
