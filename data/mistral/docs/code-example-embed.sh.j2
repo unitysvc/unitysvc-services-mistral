@@ -1,4 +1,4 @@
-curl -X POST "https://api.mistral.ai/v1/embeddings" \
+curl -X POST "$UNITYSVC_BASE_URL" \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer $UNITYSVC_API_KEY" \
      -d '{"model": "{{offering.name}}", "input": ["Embed this sentence.", "As well as this one."]}'

@@ -2,8 +2,8 @@ import os
 import requests
 
 UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
+UNITYSVC_BASE_URL = os.environ.get("UNITYSVC_BASE_URL")
 
-url = "https://api.mistral.ai/v1/audio/transcriptions"
 
 # Using multipart/form-data requires 'files' or 'data'
 files = {
@@ -15,6 +15,6 @@ headers = {
     "x-api-key": UNITYSVC_API_KEY
 }
 
-response = requests.post(url, files=files, headers=headers)
+response = requests.post(f"{UNITYSVC_BASE_URL}", headers=headers, json=data)
 
 print(response.text)

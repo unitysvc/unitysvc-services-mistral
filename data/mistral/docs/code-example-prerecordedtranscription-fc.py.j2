@@ -2,7 +2,7 @@ import os
 import requests
 
 UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
-UNITYSVC_BASE_URL = "https://api.mistral.ai/v1/audio/transcriptions"
+UNITYSVC_BASE_URL = os.environ.get("UNITYSVC_BASE_URL")
 
 def transcribe_audio(model_name, file_url):
     """
