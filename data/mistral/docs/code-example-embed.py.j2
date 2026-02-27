@@ -2,7 +2,7 @@ import os
 import requests
 
 UNITYSVC_API_KEY = os.environ.get("UNITYSVC_API_KEY")
-UNITYSVC_BASE_URL = os.environ.get("UNITYSVC_BASE_URL")
+SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
 
 
 payload = {
@@ -18,6 +18,6 @@ headers = {
     "Authorization": f"Bearer {UNITYSVC_API_KEY}"
 }
 
-response = requests.post(f"{UNITYSVC_BASE_URL}", headers=headers, json=data)
+response = requests.post(f"{SERVICE_BASE_URL}", headers=headers, json=data)
 
 print(response.json())
