@@ -2,11 +2,11 @@
   "currency": "USD",
   "description": "Mistral Small Latest language model",
   "details": {
-    "contextLength": 32000,
+    "contextLength": 131072,
     "litellm_provider": "mistral",
-    "max_input_tokens": 32000,
-    "max_output_tokens": 8191,
-    "max_tokens": 8191,
+    "max_input_tokens": 131072,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai"
@@ -15,8 +15,8 @@
   "name": "mistral-small-latest",
   "payout_price": {
     "description": "Pricing Per 1M Tokens Input/Output",
-    "input": "0.09999999999999999",
-    "output": "0.3",
+    "input": "0.06",
+    "output": "0.18",
     "reference": null,
     "type": "one_million_tokens"
   },

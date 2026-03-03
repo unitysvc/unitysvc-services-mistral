@@ -5,8 +5,8 @@
     "contextLength": 131072,
     "litellm_provider": "mistral",
     "max_input_tokens": 131072,
-    "max_output_tokens": 8191,
-    "max_tokens": 8191,
+    "max_output_tokens": 131072,
+    "max_tokens": 131072,
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai"
