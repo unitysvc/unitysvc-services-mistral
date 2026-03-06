@@ -1,0 +1,39 @@
+{
+  "currency": "USD",
+  "description": "Magistral Small 2509 language model",
+  "details": {
+    "contextLength": 128000,
+    "litellm_provider": "bedrock_converse",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 8192,
+    "max_tokens": 8192,
+    "mode": "chat",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Magistral Small 2509",
+  "name": "magistral-small-2509",
+  "payout_price": {
+    "description": "Pricing Per 1M Tokens Input/Output",
+    "input": "0.5",
+    "output": "1.5",
+    "reference": null,
+    "type": "one_million_tokens"
+  },
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.656Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

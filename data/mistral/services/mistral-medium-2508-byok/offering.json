@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "description": "Mistral Medium 2508 language model",
+  "details": {
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Mistral Medium 2508",
+  "name": "mistral-medium-2508",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.626Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

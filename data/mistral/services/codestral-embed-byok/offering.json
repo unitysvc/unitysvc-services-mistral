@@ -1,0 +1,31 @@
+{
+  "currency": "USD",
+  "description": "Codestral Embed language model",
+  "details": {
+    "contextLength": 8192,
+    "litellm_provider": "mistral",
+    "max_input_tokens": 8192,
+    "max_tokens": 8192,
+    "mode": "embedding",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Codestral Embed",
+  "name": "codestral-embed",
+  "schema": "offering_v1",
+  "service_type": "embedding",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.695Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

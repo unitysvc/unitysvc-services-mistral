@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "description": "Mistral Embed 2312 language model",
+  "details": {
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Mistral Embed 2312",
+  "name": "mistral-embed-2312",
+  "schema": "offering_v1",
+  "service_type": "embedding",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.693Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

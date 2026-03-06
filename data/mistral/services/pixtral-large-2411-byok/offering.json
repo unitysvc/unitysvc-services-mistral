@@ -1,0 +1,39 @@
+{
+  "currency": "USD",
+  "description": "Pixtral Large 2411 language model",
+  "details": {
+    "contextLength": 128000,
+    "litellm_provider": "mistral",
+    "max_input_tokens": 128000,
+    "max_output_tokens": 128000,
+    "max_tokens": 128000,
+    "mode": "chat",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Pixtral Large 2411",
+  "name": "pixtral-large-2411",
+  "payout_price": {
+    "description": "Pricing Per 1M Tokens Input/Output",
+    "input": "2",
+    "output": "6",
+    "reference": null,
+    "type": "one_million_tokens"
+  },
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.634Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

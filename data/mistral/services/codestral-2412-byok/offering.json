@@ -1,0 +1,24 @@
+{
+  "currency": "USD",
+  "description": "Codestral 2412 language model",
+  "details": {
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Codestral 2412",
+  "name": "codestral-2412",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "deprecated",
+  "tags": [
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.689Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

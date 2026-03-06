@@ -1,0 +1,39 @@
+{
+  "currency": "USD",
+  "description": "Devstral 2512 language model",
+  "details": {
+    "contextLength": 256000,
+    "litellm_provider": "mistral",
+    "max_input_tokens": 256000,
+    "max_output_tokens": 256000,
+    "max_tokens": 256000,
+    "mode": "chat",
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Devstral 2512",
+  "name": "devstral-2512",
+  "payout_price": {
+    "description": "Pricing Per 1M Tokens Input/Output",
+    "input": "0.39999999999999997",
+    "output": "2",
+    "reference": null,
+    "type": "one_million_tokens"
+  },
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-01-26T02:53:52.642Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

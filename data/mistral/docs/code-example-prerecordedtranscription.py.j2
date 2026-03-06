@@ -1,0 +1,20 @@
+import os
+import requests
+
+UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
+SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
+
+
+# Using multipart/form-data requires 'files' or 'data'
+files = {
+    "file_url": (None, "https://docs.mistral.ai/audio/obama.mp3"),
+    "model": (None, "{{offering.name}}")
+}
+
+headers = {
+    "x-api-key": UNITYSVC_API_KEY
+}
+
+response = requests.post(f"{SERVICE_BASE_URL}", headers=headers, json=data)
+
+print(response.text)

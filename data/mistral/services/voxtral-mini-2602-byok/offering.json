@@ -1,0 +1,26 @@
+{
+  "currency": "USD",
+  "description": "Voxtral Mini 2602 language model",
+  "details": {
+    "object": "model",
+    "owned_by": "mistralai"
+  },
+  "display_name": "Voxtral Mini 2602",
+  "name": "voxtral-mini-2602",
+  "schema": "offering_v1",
+  "service_type": "llm",
+  "status": "ready",
+  "tags": [
+    "ai",
+    "gateway",
+    "byok"
+  ],
+  "time_created": "2026-02-06T20:36:46.495217Z",
+  "upstream_access_interfaces": {
+    "Mistral AI API": {
+      "access_method": "http",
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": []
+    }
+  }
+}

@@ -1,0 +1,32 @@
+import os
+import requests
+
+UNITYSVC_API_KEY = os.getenv("UNITYSVC_API_KEY")
+SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
+
+def transcribe_audio(model_name, file_url):
+    """
+    Sends an audio URL to Mistral for transcription.
+    model_name: str
+    file_url: str (public URL to audio file)
+    """
+    headers = {
+        "x-api-key": UNITYSVC_API_KEY
+    }
+
+    files = {
+        "file_url": (None, file_url),
+        "model": (None, model_name)
+    }
+
+    response = requests.post(SERVICE_BASE_URL, headers=headers, files=files)
+    response.raise_for_status()
+    return response.json()
+
+# Example usage:
+if __name__ == "__main__":
+    result = transcribe_audio(
+        "{{offering.name}}",
+        "https://docs.mistral.ai/audio/obama.mp3"
+    )
+    print(result)

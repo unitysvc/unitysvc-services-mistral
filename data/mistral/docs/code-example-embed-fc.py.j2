@@ -1,0 +1,36 @@
+import os
+import requests
+
+# Grab API key and endpoint from environment
+UNITYSVC_API_KEY = os.environ.get("UNITYSVC_API_KEY")
+SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
+
+def get_embeddings(model_name, texts):
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {UNITYSVC_API_KEY}"
+    }
+
+    payload = {
+        "model": model_name,
+        "input": texts
+    }
+
+    # Append /embeddings to the base URL
+    url = f"{SERVICE_BASE_URL.rstrip('/')}/embeddings"
+    
+    response = requests.post(url, headers=headers, json=payload)
+    response.raise_for_status()
+    return response.json() 
+
+
+# Example usage:
+if __name__ == "__main__":
+    result = get_embeddings(
+        "{{offering.name}}",  # replace with your actual model name
+        ["Embed this sentence.", "As well as this one."]
+    )
+    print(result)
+
+
+
