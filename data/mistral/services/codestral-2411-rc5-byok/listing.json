@@ -44,38 +44,13 @@
   },
   "list_price": null,
   "schema": "listing_v1",
-  "service_options": {
-    "ops_testing_parameters": {
-      "api_key": "${ secrets.MISTRAL_API_KEY }"
-    }
-  },
   "status": "ready",
   "time_created": "2026-01-26T02:53:52.691Z",
   "user_access_interfaces": {
     "Provider API": {
       "access_method": "http",
+      "api_key": "${ secrets.MISTRAL_API_KEY }",
       "base_url": "${GATEWAY_BASE_URL}/p/mistral"
-    }
-  },
-  "user_parameters_schema": {
-    "description": "Access service with your own api-key",
-    "properties": {
-      "api_key": {
-        "default": "",
-        "title": "API Key",
-        "type": "string"
-      }
-    },
-    "required": [
-      "api_key"
-    ],
-    "title": "Be Your Own Provider",
-    "type": "object"
-  },
-  "user_parameters_ui_schema": {
-    "api_key": {
-      "ui:description": "API Key (MISTRAL_API_KEY) is managed via secrets",
-      "ui:disabled": true
     }
   }
 }
