@@ -1,4 +1,4 @@
 curl --location "$SERVICE_BASE_URL" \
   --header "x-api-key: $UNITYSVC_API_KEY" \
   --form 'file_url="https://docs.mistral.ai/audio/obama.mp3"' \
-  --form 'model="{{offering.name}}"'
+  --form 'model="${MODEL:-{{offering.name}}}"'

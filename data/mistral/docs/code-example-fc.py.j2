@@ -5,7 +5,7 @@ import requests
 # Config
 UNITYSVC_API_KEY = os.environ.get("UNITYSVC_API_KEY")
 SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
-MODEL = "{{offering.name}}"
+MODEL = os.environ.get("MODEL", "{{offering.name}}")
 
 headers = {
     "Authorization": f"Bearer {UNITYSVC_API_KEY}",

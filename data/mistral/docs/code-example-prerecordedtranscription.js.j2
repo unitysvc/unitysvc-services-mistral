@@ -3,7 +3,7 @@ const ENDPOINT = process.env.SERVICE_BASE_URL;
 
 const form = new FormData();
 form.append("file_url", "https://docs.mistral.ai/audio/obama.mp3");
-form.append("model", "{{offering.name}}");
+form.append("model", process.env.MODEL || "{{offering.name}}");
 
 const response = await fetch(`${ENDPOINT}`, {
   method: "POST",

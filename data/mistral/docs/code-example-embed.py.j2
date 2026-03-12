@@ -5,7 +5,7 @@ UNITYSVC_API_KEY = os.environ.get("UNITYSVC_API_KEY")
 SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
 
 payload = {
-    "model": "{{offering.name}}",
+    "model": os.environ.get("MODEL", "{{offering.name}}"),
     "input": [
         "Embed this sentence.",
         "As well as this one."

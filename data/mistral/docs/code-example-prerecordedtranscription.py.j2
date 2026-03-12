@@ -8,7 +8,7 @@ SERVICE_BASE_URL = os.environ.get("SERVICE_BASE_URL")
 # Using multipart/form-data requires 'files' or 'data'
 files = {
     "file_url": (None, "https://docs.mistral.ai/audio/obama.mp3"),
-    "model": (None, "{{offering.name}}")
+    "model": (None, os.environ.get("MODEL", "{{offering.name}}"))
 }
 
 headers = {
