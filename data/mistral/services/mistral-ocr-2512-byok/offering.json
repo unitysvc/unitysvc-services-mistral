@@ -9,7 +9,7 @@
   "name": "mistral-ocr-2512",
   "schema": "offering_v1",
   "service_type": "llm",
-  "status": "ready",
+  "status": "deprecated",
   "tags": [
     "ai",
     "gateway",
