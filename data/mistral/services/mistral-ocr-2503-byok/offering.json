@@ -9,7 +9,7 @@
   "name": "mistral-ocr-2503",
   "schema": "offering_v1",
   "service_type": "llm",
-  "status": "ready",
+  "status": "deprecated",
   "tags": [
     "ai",
     "gateway",
@@ -19,8 +19,8 @@
   "upstream_access_interfaces": {
     "Mistral AI API": {
       "access_method": "http",
-      "base_url": "https://api.mistral.ai/v1",
       "api_key": "${ customer_secrets.MISTRAL_API_KEY }",
+      "base_url": "https://api.mistral.ai/v1",
       "rate_limits": []
     }
   }
