@@ -1,4 +1,7 @@
 {
+  "capabilities": [
+    "llm"
+  ],
   "currency": "USD",
   "description": "Magistral Medium Latest language model",
   "details": {
@@ -14,10 +17,9 @@
   "display_name": "Magistral Medium Latest",
   "name": "magistral-medium-latest",
   "payout_price": {
-    "description": "Pricing Per 1M Tokens Input/Output",
-    "input": "2",
-    "output": "5",
-    "reference": null,
+    "description": "Service provider charges $2 / $5 per 1M input/output tokens",
+    "input": "0",
+    "output": "0",
     "type": "one_million_tokens"
   },
   "schema": "offering_v1",
@@ -32,9 +34,12 @@
   "upstream_access_interfaces": {
     "Mistral AI API": {
       "access_method": "http",
-      "base_url": "https://api.mistral.ai/v1",
       "api_key": "${ customer_secrets.MISTRAL_API_KEY }",
-      "rate_limits": []
+      "base_url": "https://api.mistral.ai/v1",
+      "rate_limits": [],
+      "routing_key": {
+        "model": "magistral-medium-latest"
+      }
     }
   }
 }
