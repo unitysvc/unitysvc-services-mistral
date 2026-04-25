@@ -20,7 +20,7 @@
   ],
   "time_created": "2026-03-17T17:11:26.675933Z",
   "upstream_access_config": {
-    "Mistral AI API": {
+    "mistral_ai_api": {
       "access_method": "http",
       "api_key": "${ customer_secrets.MISTRAL_API_KEY }",
       "base_url": "https://api.mistral.ai/v1",
