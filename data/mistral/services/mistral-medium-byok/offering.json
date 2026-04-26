@@ -5,14 +5,15 @@
   "currency": "USD",
   "description": "Mistral Medium language model",
   "details": {
-    "contextLength": 32000,
+    "context_length": 32000,
     "litellm_provider": "mistral",
     "max_input_tokens": 32000,
     "max_output_tokens": 8191,
     "max_tokens": 8191,
     "mode": "chat",
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "parameter_count": null
   },
   "display_name": "Mistral Medium",
   "name": "mistral-medium",

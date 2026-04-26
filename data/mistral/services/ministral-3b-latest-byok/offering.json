@@ -5,8 +5,10 @@
   "currency": "USD",
   "description": "Ministral 3B Latest language model",
   "details": {
+    "context_length": null,
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "parameter_count": null
   },
   "display_name": "Ministral 3B Latest",
   "name": "ministral-3b-latest",

@@ -5,10 +5,12 @@
   "currency": "USD",
   "description": "Mistral Ocr Latest language model",
   "details": {
+    "context_length": null,
     "litellm_provider": "mistral",
     "mode": "ocr",
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "parameter_count": null
   },
   "display_name": "Mistral Ocr Latest",
   "name": "mistral-ocr-latest",
