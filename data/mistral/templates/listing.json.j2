@@ -1,5 +1,4 @@
 {%- set is_embedding = service_type == "embedding" -%}
-{%- set example_suffix = "-embed" if is_embedding else "" -%}
 
 {
   "schema": "listing_v1",
@@ -20,52 +19,70 @@
   "documents": {
 
     "How to use this model": {
-      "category": "getting_started",
-      "file_path": "../../docs/description.md",
-      "is_active": true,
-      "is_public": true,
-      "mime_type": "markdown"
+      "$doc_preset": "llm_description"
     },
 
+{%- if is_embedding %}
     "Python code example": {
-      "category": "code_example",
-      "description": "Example code to use the model",
-      "file_path": "../../docs/code-example{{ example_suffix }}.py.j2",
-      "is_active": true,
-      "is_public": true,
-      "mime_type": "python"
+      "$doc_preset": {
+        "name": "llm_code_example_embed_requests",
+        "description": "Example code to use the model"
+      }
     },
 
     "Python function calling code example": {
       "category": "code_example",
       "description": "Example code to use the model",
-{%- if is_embedding %}
       "file_path": "../../docs/code-example-embed-fc.py.j2",
-{%- else %}
-      "file_path": "../../docs/code-example-fc.py.j2",
-{%- endif %}
       "is_active": true,
       "is_public": true,
       "mime_type": "python"
     },
 
     "JavaScript code example": {
-      "category": "code_example",
-      "description": "Example code to use the model",
-      "file_path": "../../docs/code-example{{ example_suffix }}.js.j2",
-      "is_active": true,
-      "is_public": true,
-      "mime_type": "javascript"
+      "$doc_preset": {
+        "name": "llm_code_example_embed_javascript",
+        "description": "Example code to use the model"
+      }
     },
 
     "cURL code example": {
+      "$doc_preset": {
+        "name": "llm_code_example_embed_shell",
+        "description": "Example code to use the model"
+      }
+    },
+{%- else %}
+    "Python code example": {
+      "$doc_preset": {
+        "name": "llm_code_example_openai",
+        "description": "Example code to use the model"
+      }
+    },
+
+    "Python function calling code example": {
       "category": "code_example",
       "description": "Example code to use the model",
-      "file_path": "../../docs/code-example{{ example_suffix }}.sh.j2",
+      "file_path": "../../docs/code-example-fc.py.j2",
       "is_active": true,
       "is_public": true,
-      "mime_type": "bash"
+      "mime_type": "python"
     },
+
+    "JavaScript code example": {
+      "$doc_preset": {
+        "name": "llm_code_example_javascript",
+        "description": "Example code to use the model"
+      }
+    },
+
+    "cURL code example": {
+      "$doc_preset": {
+        "name": "llm_code_example_shell",
+        "description": "Example code to use the model"
+      }
+    },
+{%- endif %}
 
     "Connectivity test": {
       "category": "connectivity_test",
@@ -75,13 +92,12 @@
       "is_public": false,
       "mime_type": "bash"
     },
+
     "Default request body": {
-          "category": "request_template",
-          "description": "Default request body for the playground",
-          "file_path": "../../docs/request-template.json",
-          "is_active": true,
-          "is_public": true,
-          "mime_type": "json"
+      "$doc_preset": {
+        "name": "llm_request_template",
+        "description": "Default request body for the playground"
+      }
     }
   }
 }
