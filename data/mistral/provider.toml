@@ -9,7 +9,7 @@ time_created = "2025-08-31T00:00:00Z"
 
 [services_populator]
 command = 'scripts/update_services.py'
-requirements = ['any-llm-sdk[mistral]', 'requests', 'unitysvc-services']
+requirements = ['any-llm-sdk[mistral]', 'requests', 'unitysvc-sellers']
 
 [services_populator.envs]
 # API key should be provided via MISTRAL_API_KEY environment variable
