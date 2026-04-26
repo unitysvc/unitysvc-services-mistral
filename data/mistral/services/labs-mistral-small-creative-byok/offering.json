@@ -6,7 +6,9 @@
   "description": "Labs Mistral Small Creative language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Labs Mistral Small Creative",
   "name": "labs-mistral-small-creative",

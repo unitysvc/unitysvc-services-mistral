@@ -6,7 +6,9 @@
   "description": "Voxtral Mini 2602 language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Voxtral Mini 2602",
   "name": "voxtral-mini-2602",

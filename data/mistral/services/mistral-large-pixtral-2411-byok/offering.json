@@ -6,7 +6,9 @@
   "description": "Mistral Large Pixtral 2411 language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Mistral Large Pixtral 2411",
   "name": "mistral-large-pixtral-2411",

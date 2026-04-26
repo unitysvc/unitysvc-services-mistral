@@ -6,7 +6,9 @@
   "description": "Voxtral Small Latest language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Voxtral Small Latest",
   "name": "voxtral-small-latest",

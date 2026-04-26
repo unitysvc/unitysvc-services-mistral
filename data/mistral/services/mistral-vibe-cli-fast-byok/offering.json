@@ -6,7 +6,9 @@
   "description": "Mistral Vibe Cli Fast language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Mistral Vibe Cli Fast",
   "name": "mistral-vibe-cli-fast",

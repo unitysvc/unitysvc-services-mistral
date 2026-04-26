@@ -8,7 +8,9 @@
     "litellm_provider": "mistral",
     "mode": "ocr",
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Mistral Ocr Latest",
   "name": "mistral-ocr-latest",

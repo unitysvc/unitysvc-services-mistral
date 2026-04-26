@@ -6,7 +6,9 @@
   "description": "Mistral Moderation Latest language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Mistral Moderation Latest",
   "name": "mistral-moderation-latest",

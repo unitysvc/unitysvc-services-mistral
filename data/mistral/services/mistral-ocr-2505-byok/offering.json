@@ -8,7 +8,9 @@
     "litellm_provider": "vertex_ai",
     "mode": "ocr",
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Mistral Ocr 2505",
   "name": "mistral-ocr-2505",

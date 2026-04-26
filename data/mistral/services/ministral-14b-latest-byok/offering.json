@@ -6,7 +6,9 @@
   "description": "Ministral 14B Latest language model",
   "details": {
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "context_length": null,
+    "parameter_count": null
   },
   "display_name": "Ministral 14B Latest",
   "name": "ministral-14b-latest",
