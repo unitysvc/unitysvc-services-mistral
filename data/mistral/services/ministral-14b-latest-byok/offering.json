@@ -5,9 +5,9 @@
   "currency": "USD",
   "description": "Ministral 14B Latest language model",
   "details": {
+    "context_length": null,
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": null,
     "parameter_count": null
   },
   "display_name": "Ministral 14B Latest",

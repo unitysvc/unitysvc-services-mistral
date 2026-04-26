@@ -5,6 +5,7 @@
   "currency": "USD",
   "description": "Magistral Small 2509 language model",
   "details": {
+    "context_length": 128000,
     "litellm_provider": "bedrock_converse",
     "max_input_tokens": 128000,
     "max_output_tokens": 8192,
@@ -12,7 +13,6 @@
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": 128000,
     "parameter_count": null
   },
   "display_name": "Magistral Small 2509",

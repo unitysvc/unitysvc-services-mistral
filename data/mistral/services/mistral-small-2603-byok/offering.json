@@ -5,12 +5,12 @@
   "currency": "USD",
   "description": "Mistral Small 2603 language model",
   "details": {
-    "object": "model",
-    "owned_by": "mistralai",
+    "context_length": 262144,
     "metadata_sources": {
       "context_length": "openrouter"
     },
-    "context_length": 262144,
+    "object": "model",
+    "owned_by": "mistralai",
     "parameter_count": null
   },
   "display_name": "Mistral Small 2603",

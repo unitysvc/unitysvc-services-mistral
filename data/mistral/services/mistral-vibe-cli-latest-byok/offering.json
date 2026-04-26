@@ -5,9 +5,9 @@
   "currency": "USD",
   "description": "Mistral Vibe Cli Latest language model",
   "details": {
+    "context_length": null,
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": null,
     "parameter_count": null
   },
   "display_name": "Mistral Vibe Cli Latest",

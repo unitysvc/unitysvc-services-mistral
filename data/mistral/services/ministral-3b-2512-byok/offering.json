@@ -5,6 +5,7 @@
   "currency": "USD",
   "description": "Ministral 3B 2512 language model",
   "details": {
+    "context_length": 131072,
     "litellm_provider": "openrouter",
     "max_input_tokens": 131072,
     "max_output_tokens": 131072,
@@ -12,7 +13,6 @@
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": 131072,
     "parameter_count": null
   },
   "display_name": "Ministral 3B 2512",

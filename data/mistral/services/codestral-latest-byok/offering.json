@@ -5,6 +5,7 @@
   "currency": "USD",
   "description": "Codestral Latest language model",
   "details": {
+    "context_length": 32000,
     "litellm_provider": "codestral",
     "max_input_tokens": 32000,
     "max_output_tokens": 8191,
@@ -12,7 +13,6 @@
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": 32000,
     "parameter_count": null
   },
   "display_name": "Codestral Latest",

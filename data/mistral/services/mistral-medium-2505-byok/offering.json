@@ -5,6 +5,7 @@
   "currency": "USD",
   "description": "Mistral Medium 2505 language model",
   "details": {
+    "context_length": 131072,
     "litellm_provider": "azure_ai",
     "max_input_tokens": 131072,
     "max_output_tokens": 8191,
@@ -12,7 +13,6 @@
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": 131072,
     "parameter_count": null
   },
   "display_name": "Mistral Medium 2505",

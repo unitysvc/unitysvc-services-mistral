@@ -5,9 +5,9 @@
   "currency": "USD",
   "description": "Mistral Tiny 2407 language model",
   "details": {
+    "context_length": null,
     "object": "model",
     "owned_by": "mistralai",
-    "context_length": null,
     "parameter_count": null
   },
   "display_name": "Mistral Tiny 2407",
