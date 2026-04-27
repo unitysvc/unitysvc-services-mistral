@@ -5,8 +5,10 @@
   "currency": "USD",
   "description": "Mistral Embed 2312 language model",
   "details": {
+    "context_length": null,
     "object": "model",
-    "owned_by": "mistralai"
+    "owned_by": "mistralai",
+    "parameter_count": null
   },
   "display_name": "Mistral Embed 2312",
   "name": "mistral-embed-2312",
