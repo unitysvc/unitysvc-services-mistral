@@ -10,6 +10,9 @@
     "max_input_tokens": 256000,
     "max_output_tokens": 256000,
     "max_tokens": 256000,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",

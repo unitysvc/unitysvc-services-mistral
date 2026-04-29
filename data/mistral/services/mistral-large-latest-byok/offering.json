@@ -9,6 +9,9 @@
     "litellm_provider": "azure",
     "max_input_tokens": 32000,
     "max_tokens": 32000,
+    "metadata_sources": {
+      "context_length": "litellm"
+    },
     "mode": "chat",
     "object": "model",
     "owned_by": "mistralai",
