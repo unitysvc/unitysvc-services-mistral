@@ -1,4 +1,4 @@
-curl --location "$SERVICE_BASE_URL" \
+curl --location "{{ service_base_url }}" \
   --header "x-api-key: $UNITYSVC_API_KEY" \
   --form 'file_url="https://docs.mistral.ai/audio/obama.mp3"' \
-  --form 'model="${MODEL:-{{offering.name}}}"'
+  --form 'model="{{ routing_key.model }}}}"'
