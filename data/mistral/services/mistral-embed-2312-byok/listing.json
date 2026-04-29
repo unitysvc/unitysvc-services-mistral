@@ -2,33 +2,22 @@
   "currency": "USD",
   "documents": {
     "Connectivity test": {
-      "category": "connectivity_test",
-      "description": "Connectivity test",
-      "file_path": "../../docs/connectivity.sh.j2",
-      "is_active": true,
-      "is_public": false,
-      "mime_type": "bash"
+      "$doc_preset": {
+        "is_public": false,
+        "name": "api_connectivity"
+      }
     },
     "Default request body": {
-      "$doc_preset": {
-        "description": "Default request body for the playground",
-        "name": "llm_request_template"
-      }
+      "$doc_preset": "llm_request_template"
     },
     "How to use this model": {
       "$doc_preset": "llm_description"
     },
     "JavaScript code example": {
-      "$doc_preset": {
-        "description": "Example code to use the model",
-        "name": "llm_code_example_embed_javascript"
-      }
+      "$doc_preset": "llm_code_example_embed_javascript"
     },
     "Python code example": {
-      "$doc_preset": {
-        "description": "Example code to use the model",
-        "name": "llm_code_example_embed_requests"
-      }
+      "$doc_preset": "llm_code_example_embed_requests"
     },
     "Python function calling code example": {
       "category": "code_example",
@@ -39,10 +28,7 @@
       "mime_type": "python"
     },
     "cURL code example": {
-      "$doc_preset": {
-        "description": "Example code to use the model",
-        "name": "llm_code_example_embed_shell"
-      }
+      "$doc_preset": "llm_code_example_embed_shell"
     }
   },
   "schema": "listing_v1",
