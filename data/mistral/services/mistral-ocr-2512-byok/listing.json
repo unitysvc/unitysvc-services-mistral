@@ -4,7 +4,7 @@
     "Connectivity test": {
       "$doc_preset": {
         "is_public": false,
-        "name": "api_connectivity"
+        "name": "llm_connectivity"
       }
     },
     "Default request body": {
