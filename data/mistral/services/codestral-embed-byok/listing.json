@@ -2,10 +2,7 @@
   "currency": "USD",
   "documents": {
     "Connectivity test": {
-      "$doc_preset": {
-        "is_public": false,
-        "name": "llm_connectivity"
-      }
+      "$doc_preset": "llm_connectivity"
     },
     "Default request body": {
       "$doc_preset": "llm_request_template"
@@ -20,12 +17,7 @@
       "$doc_preset": "llm_code_example_embed_requests"
     },
     "Python function calling code example": {
-      "category": "code_example",
-      "description": "Example code to use the model",
-      "file_path": "../../docs/code-example-embed-fc.py.j2",
-      "is_active": true,
-      "is_public": true,
-      "mime_type": "python"
+      "$doc_preset": "llm_code_example_fc_requests"
     },
     "cURL code example": {
       "$doc_preset": "llm_code_example_embed_shell"
