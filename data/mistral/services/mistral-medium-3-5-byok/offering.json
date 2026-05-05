@@ -5,7 +5,10 @@
   "currency": "USD",
   "description": "Mistral Medium 3 5 language model",
   "details": {
-    "context_length": null,
+    "context_length": 262144,
+    "metadata_sources": {
+      "context_length": "openrouter"
+    },
     "object": "model",
     "owned_by": "mistralai",
     "parameter_count": null
