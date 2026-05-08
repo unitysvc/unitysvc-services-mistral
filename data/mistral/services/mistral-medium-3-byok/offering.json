@@ -5,7 +5,7 @@
   "currency": "USD",
   "description": "Mistral Medium 3 language model",
   "details": {
-    "context_length": 131072,
+    "context_length": 262144,
     "litellm_provider": "vertex_ai-mistral_models",
     "max_input_tokens": 128000,
     "max_output_tokens": 8191,
